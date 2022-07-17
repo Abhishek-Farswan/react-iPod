@@ -1,0 +1,247 @@
+/* main screen css */
+.screen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.screen-structure{
+    margin-top: 5%;
+    height: 320px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #E3E4E5, #FFFFFF);
+    box-shadow: inset 5px -5px 15px 0px grey;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border: none;
+}
+
+.screen-main-menu{
+    height: 250px;
+    width: 360px;
+    background-color: white;
+    border-radius: 1rem;
+    border: 0.2rem solid black;
+    margin-top: 30px;
+    padding-bottom: 26px;
+}
+
+.main-menu-right{
+    height: 240px;
+    width: 210px;
+}
+
+.screen-main-music{
+    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+    height: 241px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    color: white;
+  }
+
+/* header screen items */
+.screen-main-battery{
+    width: 100%;
+    height: 35px;
+    background: linear-gradient(45deg, #E3E4E5, #FFFFFF);
+    box-shadow: inset 5px -5px 15px 0px grey;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+}
+
+.ipod-text{
+    font-weight: 500;
+    position: relative;
+    bottom: 6px;
+    color: grey;
+    font-weight: 500;
+}
+
+.battery-icon{
+    color:green;
+    position: relative;
+    left: 110px;
+    top:2px;
+}
+
+.apple-icon{
+    position: relative;
+    right: 90px;
+    color: white;
+}
+
+.main-menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.header-time{
+    position: relative;
+    right: 110px;
+    bottom:5px;
+    color: white;
+    font-weight: 700;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    height: 240px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background-color: #f1f1f1;    
+}
+  
+    li{
+    text-align:left;
+    height: 37px;
+    width: 100%;
+    /* padding-top: 3px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    justify-content: left;    
+     /* padding-left: 5px;
+    padding-top: 5px; */
+    }  
+
+  li a {
+    /* display: block; */
+    width: 85%;
+    color: #000;
+    text-decoration: none;
+    align-content: left;
+    /* display: inline-block; */
+  }
+  
+  /* Change the link color on hover */
+  .active{
+    background-color: #555;    
+    color: white;  
+  }
+
+  .select-indicator{
+   color:  #f1f1f1;
+   display: flex;
+   justify-content: right;
+   margin-right: 10px;
+  }
+
+  /* lockscreen related */
+  #lock-container{
+      background-color: #555;
+      color: white;
+      position: relative;
+      top: 100px;
+      font-size: large;
+      padding: 8px;
+  }
+
+  .lockscreen-date{
+    color: white;
+    position: relative;
+    top: 70px;
+    font-size:xx-large;
+    font-weight: bolder;
+}
+
+  .lockscreen-main{
+      background-image: url(../../public/assets/menu-images/wallpaper-galaxy-lake.jpg);
+      height: 241px;
+      border-bottom-left-radius: 12px;
+      border-bottom-right-radius: 12px;
+  }
+
+ /* menu screen css */
+
+  .item{
+    width: 85%;
+    color: #000;
+    text-decoration: none;
+    align-content: left;
+    padding-left: 8px;
+  }
+
+  .item-active{
+      color:white;
+  }
+
+  .menu-item-pic{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+  }
+
+  .menu-item-pic img{
+      height: 125px;
+      width: 140px;
+      border: none;
+  }
+
+  /* Sign-in submenu CSS */
+  .sign-in-submenu{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+  }
+
+  .sign-in-image1{
+      height: 120px;
+      width: 120px;
+  }
+
+  .sign-in-image2{
+    margin-top: 5px;
+    height: 50px;
+    width: 220px;
+}
+
+
+/* music player submenu */
+.music-player{
+    display: flex;
+    flex-direction: row;
+    width: 360px;
+    height: 170px;
+}
+
+.music-player-img{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.music-player-text{
+    margin-top: 4rem;
+    margin-left: 2rem;
+    font-size:x-large;
+}
+
+.music-player-text span{
+    display: block;
+    text-align: left;
+    font-weight: bold;
+}
+
+.music-player-time{
+    height:50px;
+}
+
+audio {
+    filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+    width: 350px;
+    height: 50px;
+}

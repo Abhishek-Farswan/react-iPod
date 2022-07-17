@@ -1,0 +1,97 @@
+#wheel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+   }
+
+#wheel:hover {
+ cursor: pointer;
+}
+
+.wheel-structure{
+    height: 310px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #E3E4E5, #FFFFFF);
+    box-shadow: inset 5px -5px 15px 0px grey;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2rem;
+    border: none;
+}
+
+.wheel-button-holder{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10rem;
+    position: relative;
+    border:2px solid black;
+}
+
+.wheel-buttons{
+    color:  #484647;
+    background:white;
+}
+
+.wheel-button-holder-main{
+    height: 90px;
+    width: 90px;
+    border-radius: 10rem;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    border:2px solid black;
+    background-color: lightgrey;
+}
+
+.wheel-button-holder-menu{
+    border: none;
+    position: absolute;
+    top: 33px;
+    left: 86px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.wheel-button-holder-play-pause{
+    border: none;
+    position: absolute;
+    top: 190px;
+    left: 100px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.wheel-button-holder-forward-fast{
+    border: none;
+    position: absolute;
+    top: 110px;
+    left: 190px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+
+.wheel-button-holder-backward-fast{
+    border: none;
+    position: absolute;
+    top: 110px;
+    left: 20px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.wheel-holder-icons{
+    height: 30px;
+}
+
+.main-button-logo{
+    height:60px;
+    position: relative;
+    left:0px;
+}
