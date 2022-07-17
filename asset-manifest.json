@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-iPod/static/css/main.745607c9.css",
+    "main.js": "/react-iPod/static/js/main.7d60a7ff.js",
+    "static/media/wallpaper-galaxy-lake.jpg": "/react-iPod/static/media/wallpaper-galaxy-lake.aecf78f2608e48fd0802.jpg",
+    "index.html": "/react-iPod/index.html",
+    "main.745607c9.css.map": "/react-iPod/static/css/main.745607c9.css.map",
+    "main.7d60a7ff.js.map": "/react-iPod/static/js/main.7d60a7ff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.745607c9.css",
+    "static/js/main.7d60a7ff.js"
+  ]
+}
