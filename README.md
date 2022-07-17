@@ -1,3 +1,16 @@
+# iPod Emulator using ReactJS
+
+Screenshots
+
+
+![ipod1](https://user-images.githubusercontent.com/70810395/179402644-80506fbd-de60-46b9-917e-38ea06b20827.png)
+
+
+![ipod2](https://user-images.githubusercontent.com/70810395/179402692-17f1dbe7-11cd-4dae-969a-ce2e6d1ced7d.png)
+
+
+![ipod3](https://user-images.githubusercontent.com/70810395/179402698-8f44e5cd-f523-4f47-8d68-694732beee09.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
